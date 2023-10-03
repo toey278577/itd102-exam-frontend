@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import StudentDataService from '../services/tutorial.service';
 
 export default class AddTutorial extends Component {
-  constructor(props){  //ทำทันที
-    super(props);  // ส่งให้คลาสแม่
+  constructor(props){ 
+    super(props); 
 
     this.onChangeid = this.onChangeid.bind(this);
     this.onChangename = this.onChangename.bind(this);
